@@ -1,0 +1,27 @@
+
+
+:root{
+    --bc:radial-gradient(circle, rgb(219, 220, 226) 0%, rgba(252,70,107,1) 100%);
+}
+
+
+#p1{
+    background-image: var(--bc);
+    font-size: 72px;
+    color: white;
+}
+#p2{
+    background-image: var(--bc);
+    font-size: 72px;
+    color: white;
+}
+#p3{
+    background-image: var(--bc);
+    font-size: 72px;
+    color: white;
+}
+#p4{
+    background-image: var(--bc);
+    font-size: 72px;
+    color: white;
+}
