@@ -1,0 +1,13 @@
+h1 {
+  background-color: red;
+  font-size: 90px;
+}
+
+.parent p {
+  background-color: red;
+}
+
+.parent .child p {
+  background-color: #48ff00;
+}
+/*# sourceMappingURL=style.css.map */

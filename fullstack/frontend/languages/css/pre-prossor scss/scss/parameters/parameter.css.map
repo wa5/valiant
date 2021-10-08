@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAaA,AAAA,MAAM,CAAA;EANF,gBAAgB,ECPf,GAAG;EDQJ,KAAK,EERJ,OAAe;EFShB,SAAS,EAKiB,IAAI;CAC7B;;AACL,AAAA,MAAM,CAAA;EATF,gBAAgB,ECPf,GAAG;EDQJ,KAAK,EERJ,OAAe;EFShB,SAAS,EAQiB,IAAI;CAC7B;;AACL,AAAA,MAAM,CAAA;EAZF,gBAAgB,EAaA,MAAM;EAZtB,KAAK,EAYkB,MAAM;EAX7B,SAAS,EAWqB,IAAI;CAC7B;;AACT,AAAA,MAAM,CAAA;EAfF,gBAAgB,EAgBA,MAAM;EAftB,KAAK,EAekB,IAAI;EAd3B,SAAS,EAcmB,IAAI;CACnC",
+    "sources": [
+        "parameter.scss",
+        "partials/_headingColor.scss",
+        "partials/_textColor.scss"
+    ],
+    "names": [],
+    "file": "parameter.css"
+}

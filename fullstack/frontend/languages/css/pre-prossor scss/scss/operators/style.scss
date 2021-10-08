@@ -1,0 +1,19 @@
+//operators
+
+h1{
+    background-color: red;
+
+    font-size: 50px+40px;
+}
+
+//nesting
+.parent{
+    p{
+        background-color: red;
+    }
+    .child{
+        p{
+            background-color: rgb(72, 255, 0);
+        }
+    }
+}

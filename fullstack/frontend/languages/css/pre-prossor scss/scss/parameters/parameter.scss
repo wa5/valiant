@@ -1,0 +1,25 @@
+@import './partials/headingColor';
+@import './partials/textColor';
+
+
+
+
+@mixin corona($astamsa,$hertattack,$headache){
+    background-color: $astamsa;
+    color: $hertattack;
+    font-size:$headache;
+}
+
+
+.root1{
+    @include corona($HC1,$TC1,50px)
+    }
+.root2{
+    @include corona($HC1,$TC1,50px)
+    }
+.root3{
+    @include corona(yellow,orange,70px)
+        }
+.root4{
+    @include corona(orange,pink,40px)
+}

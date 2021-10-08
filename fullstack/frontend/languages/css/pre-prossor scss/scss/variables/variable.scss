@@ -1,0 +1,23 @@
+$co:rgb(255, 30, 0);
+$blabla:white;
+$fz:70px;
+
+@mixin corona{
+    background-color: $co;
+    color: $blabla;
+    font-size:$fz;
+}
+
+
+.root1{
+@include corona()
+}
+.root2{
+    @include corona()
+    }
+.root3{
+    @include corona()
+        }
+.root4{
+    @include corona()
+}
