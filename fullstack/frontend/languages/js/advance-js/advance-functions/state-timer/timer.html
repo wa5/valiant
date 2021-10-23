@@ -1,0 +1,40 @@
+<script>
+
+
+    /**
+     * !settimre out---in a[pi calling]
+     * !settime interval--watch project
+     * 
+     * states 
+    */
+
+
+    let countersecond=0
+    let countm=0
+function  increamentcounter(){
+    countersecond=countersecond+1
+    renderState(countersecond)
+}
+
+
+function  renderState(countersecond){
+    console.log(countersecond,"second")
+}
+
+if(countersecond==60){
+    function  increamentcounter(){
+        countm=countm+1
+    renderState(countm,"minits")
+}
+
+
+function  renderState(countm){
+    console.log(countm)
+}
+
+}
+
+   setInterval(()=>{
+    increamentcounter()
+   },1000)
+</script>

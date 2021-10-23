@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+<div style="text-align: center;">
+    <button>click me</button>
+    <br>
+    <h1>result</h1>
+
+    <br>
+    <button class="root">bbaba</button>
+</div>
+
+   
+        
+        <script >
+var btntag=document.querySelector('button')
+var result=document.querySelector('h1')
+btntag.addEventListener('click',()=>{
+    let data={
+        name:'hello',
+        backgroundColor:'red',
+        color:'white'
+    }
+    myeventcreator(data)
+})
+
+
+function myeventcreator(data){
+    console.log(data)
+    var myevent=new CustomEvent('superDancer',{
+        detail:data
+    })
+    result.dispatchEvent(myevent)
+}
+
+
+
+
+result.addEventListener('superDancer',(e)=>{
+    console.log(e)
+
+    let {name,backgroundColor,color}=e.detail
+    result.innerText=name
+    result.style.backgroundColor=backgroundColor
+    result.style.color=color
+})
+
+
+document.getElementById('root').addEventListener('superDancer',(e)=>{
+    console.log('hello')
+})
+
+        </script>
+    </body>
+</html>
