@@ -1,0 +1,25 @@
+<script>
+
+
+function play(){
+    return new Promise((fullfill,notfullfill)=>{
+        setTimeout(()=>{
+const err=true
+if(!err){
+    fullfill('tq for tea')
+}else{
+    notfullfill(' y r u not fullfiling promids')
+}
+
+        },2000)
+    })
+}
+play().then((data)=>{
+    console.log(data)
+}).catch((da)=>{
+    console.log(da)
+
+})
+
+
+</script>

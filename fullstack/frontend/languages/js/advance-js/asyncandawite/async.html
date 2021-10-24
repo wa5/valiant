@@ -1,0 +1,16 @@
+<script>
+
+  async function call(){
+    var data =await fetch('https://api.github.com/users')
+    var data2=await data.text()
+    return data2
+}
+
+console.log(call())
+
+var calling=call().then((bla)=>{
+    console.log(bla)
+return bla
+})
+console.log(calling)
+</script>

@@ -1,0 +1,24 @@
+<script>
+function fun(){
+    var data=fetch('https://api.github.com/users')
+   return data
+}
+    
+    console.log("im without then",fun())
+
+
+    var resolved=  fun().then((mydata)=>{
+return mydata.text()
+    })
+    console.log("im with 1 then",resolved)
+
+
+    var resolved2=  fun().then((mydata)=>{
+return mydata.text()
+    }).then((mydata2)=>{
+        console.log(mydata2)
+        return mydata2
+    })
+
+    console.log("im with 2 then",resolved2)
+</script>
