@@ -29,6 +29,10 @@ rules:[
         test:/\.css$/,
         use:['style-loader',
     'css-loader']
+    },
+    {
+        test:/\.(svg|ico|png|jpg|gif|jpeg)$/,
+        type:'asset/resource'
     }
    
 ]
