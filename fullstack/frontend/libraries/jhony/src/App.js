@@ -6,6 +6,7 @@ import Single from './pages/siglepage/Single';
 import {BrowserRouter as Router ,Routes,Route} from 'react-router-dom'
 
 import About from './pages/about/About'; 
+import Userdata from './pages/userdata/Userdata';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
    <Route  path="/" element={<Home/> } />
    <Route path="/single" element={<Single/> } />
    <Route path="/about" element={<About/> } />
+   <Route path="/userdata" element={<Userdata/> } />
       {/* <Route path="/sinle">  <Single/></Route>
       <Route path="/about">  <About/></Route> */}
   

@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "pratik",
+      "chips": "friedchips",
+      "classes": "mern"
+    },
+    {
+      "id": 4,
+      "name": "salmandfdf",
+      "chips": "friedchips",
+      "classes": "mern"
+    },
+    {
+      "id": 5,
+      "name": "salmans",
+      "chips": "friedchips",
+      "classes": "mern"
+    },
+    {
+      "id": "6",
+      "name": "sharukan",
+      "chips": "lays",
+      "classes": "mern"
+    },
+    {
+      "id": "8",
+      "name": "fdfdgf",
+      "chips": "dffd",
+      "classes": "gfffg"
+    }
+  ]
+}
