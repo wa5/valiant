@@ -7,6 +7,7 @@ import {BrowserRouter as Router ,Routes,Route} from 'react-router-dom'
 
 import About from './pages/about/About'; 
 import Userdata from './pages/userdata/Userdata';
+import Login from './pages/login/Login';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
    <Route path="/single" element={<Single/> } />
    <Route path="/about" element={<About/> } />
    <Route path="/userdata" element={<Userdata/> } />
+   <Route path="/login" element={<Login/> } />
       {/* <Route path="/sinle">  <Single/></Route>
       <Route path="/about">  <About/></Route> */}
   

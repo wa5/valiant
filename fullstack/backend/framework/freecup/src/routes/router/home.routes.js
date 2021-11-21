@@ -1,21 +1,12 @@
 
 var express=require('express')
+var {gethome,deletehome,updatehome,insethome}=require('../../controllers/home.Ctrl')
 var Router=express.Router()
 
 Router.route('/home')
-.get((req,res)=>{
-    var name=req.query.name
-    console.log(req.query)
-    res.render('home',{name:name})
-})
-.post((req,res)=>{
-    res.send('thank for acess home api post')
-})
-.delete((req,res)=>{
-    res.send('thank for acess home api deltre')
-})
-.put((req,res)=>{
-    res.send('thank for acess home put')
-})
+.get(gethome)
+.post(insethome)
+.delete(deletehome)
+.put(updatehome)
 
 module.exports=Router
