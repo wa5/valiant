@@ -27,4 +27,4 @@ constructor(color:string,brand:string,model:Number){
    }
 }
 
-var Samsung1=new Mbile1('blue','galaxi','gggh')
+var Samsung1=new Mbile1('blue','galaxi',66)
